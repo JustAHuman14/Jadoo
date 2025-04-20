@@ -1,0 +1,13 @@
+<h3> This is the landing page of a travel agency website. I made it just for practice and the design is not mine.</h3>
+
+## [Design link](https://www.figma.com/design/L3ufOle76y1DrQJL6CCKdj/Travel-Website-Landing-Page--Community-?node-id=108-84&t=NWWL7ZseVkelYFOb-0```)
+
+<h2> Note-</h2><h3>It's not responsive</h3><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+
+# ~***THE END***~
+
+</center>
+
+
+
