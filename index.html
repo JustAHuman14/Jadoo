@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/travel.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/travel.png">
   <meta name="description"
-    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam amet minus, neque deleniti blanditiis voluptate dolore adipisci dolor deserunt doloribus a ipsa impedit recusandae quo, alias harum illo cumque.">
+    content="Lorem ipsum dolor sit amet consectetur adipisicing. Reiciendis aliquam amet minus,deleniti blanditiis voluptate dolore adipisci dolor deserunt doloribus.">
 
 </head>
 
@@ -18,19 +18,15 @@
   <header>
     <div class="page">
       <nav>
-        <img class="jadoo" src="images/Jadoo.png" alt="Company name" height="30">
+        <h1 class="jadoo">Jadoo</h1>
         <ul class="flex">
           <li><a href="https://www.tripadvisor.in/TravelersChoice-Destinations" target="_blank">Destinations</a></li>
-          <li><a href="https://www.makemytrip.com/hotels/">Hotels</a></li>
+          <li><a target="_blank" href="https://www.makemytrip.com/hotels/">Hotels</a></li>
           <li><a target="_blank" href="">Flights</a></li>
           <li><a href="">Bookings</a></li>
           <li class="login">Login</li>
         </ul>
         <button class="sign-in">Sign Up</button>
-        <select name="lang" id="lang">
-          <option value="English">Eng</option>
-          <option value="Hindi">Hindi</option>
-        </select>
       </nav>
     </div>
     <div class="about">
@@ -42,9 +38,9 @@ and full life</b></pre>
 Preferred to sportsmen it engrossed listening. Park gate sell
 they west hard for the.</pre>
       <button class="btn">Find out more</button>
-      <button class="demo">
+      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <button class="demo butn">
         <center><img src="images/Polygon 1.png" alt="play"></center>
-      </button><span class="play">Play Demo</span>
+      </button></a><span class="play">Play Demo</span>
       <div class="image-wrapper">
         <img class="travel" src="images/Traveller 1.png" alt="traveller">
       </div>
@@ -110,7 +106,11 @@ military customers</pre>
     </div>
   </header>
 <script>
-  alert("This website is not responsive rn! Please use a desktop to view it properly. And it's also incomplete.");
+  //alert("This website is not responsive rn! Please use a desktop to view it properly. And it's also incomplete.");
+  let a = document.querySelector(".sign-in")
+  a.addEventListener("click",()=>{
+    alert("It didn't work!")
+  })
 </script>
 </body>
 
