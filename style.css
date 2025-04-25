@@ -223,7 +223,7 @@ a {
 .butn:hover{
     cursor: pointer;
 }
-/* Responsive Design */
+
 @media screen and (max-width: 1024px) {
     nav {
       flex-direction: column;
@@ -453,6 +453,3 @@ a {
           background: none;
         }
       }
-      
-      
-      
