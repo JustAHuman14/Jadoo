@@ -18,11 +18,13 @@
   <header>
     <div class="page">
       <nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
         <h1 class="jadoo">Jadoo</h1>
-        <ul class="flex">
+        <ul class="nav-links" id="nav-links">
           <li><a href="https://www.tripadvisor.in/TravelersChoice-Destinations" target="_blank">Destinations</a></li>
-          <li><a target="_blank" href="https://www.makemytrip.com/hotels/">Hotels</a></li>
-          <li><a target="_blank" href="https://www.skyscanner.co.in/">Flights</a></li>
+          <li><a href="https://www.makemytrip.com/hotels/" target="_blank">Hotels</a></li>
+          <li><a href="https://www.skyscanner.co.in/" target="_blank">Flights</a></li>
           <li><a href="https://booking.com">Bookings</a></li>
           <li class="login">Login</li>
         </ul>
@@ -114,7 +116,18 @@ military customers</pre>
     document.querySelector(".login").addEventListener("click", () => {
       alert("It didn't work!")
     })
-  </script>
+  document.getElementById("menu-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("active");
+  });
+
+  document.querySelector(".sign-in").addEventListener("click", () => {
+    alert("It didn't work!");
+  });
+
+  document.querySelector(".login").addEventListener("click", () => {
+    alert("It didn't work!");
+  });
+</script>
 </body>
 
 </html>

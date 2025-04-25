@@ -224,3 +224,236 @@ a {
 .butn:hover{
     cursor: pointer;
 }
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    ul {
+      margin-left: 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .login,
+    .sign-in,
+    #lang {
+      margin: 10px 0;
+    }
+  
+    .about {
+      margin-left: 20px;
+      transform: none;
+      height: auto;
+    }
+  
+    .pre {
+      font-size: 50px;
+      flex-direction: column;
+    }
+  
+    .image-wrapper {
+      transform: none;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      margin-top: 20px;
+          display: none;
+}
+  
+    .travel {
+      max-width: 80%;
+    }
+  
+    .desc {
+      flex-direction: column;
+    }
+  
+    .service {
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+  
+    .destine {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    body{
+        background-image: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .pre {
+      font-size: 35px;
+    }
+  
+    .btn {
+      width: 140px;
+      height: 50px;
+      font-size: 15px;
+    }
+  
+    .play {
+      font-size: 14px;
+    }
+  
+    .category {
+      margin-top: 40px;
+    }
+  
+    .service {
+      gap: 30px;
+    }
+
+    .service div{
+        width: 80vw;
+    }
+  
+    body{
+        background-image: none;
+    }
+    .place img {
+      width: 90vw;
+      height: auto;
+    }
+  
+    .address {
+      transform: none;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0 0 0;
+      gap: 15px;
+    }
+  
+    li,
+    .login {
+      margin-left: 0;
+      font-size: 16px;
+    }
+  
+    .sign-in,
+    #lang {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 100px;
+    }
+  }
+  .menu-toggle {
+    display: none;
+  }
+    @media screen and (max-width: 768px) {
+        .menu-toggle {
+          display: block;
+          font-size: 28px;
+          cursor: pointer;
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          z-index: 101;
+        }
+      
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 100vw;
+          background-color: white;
+          padding: 20px 0;
+          gap: 15px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+        }
+      
+        .nav-links.active {
+          display: flex;
+        }
+      
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px;
+          position: relative;
+        }
+      
+        .sign-in {
+          margin-top: 10px;
+          width: 90%;
+        }
+      
+        .login {
+          font-size: 16px;
+        }
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        nav {
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 40px;
+          width: 100%;
+          margin-left: 0;
+        }
+      
+        .jadoo {
+          font-size: 28px;
+        }
+      
+        ul {
+          margin: 0;
+          gap: 20px;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding-top: 10px;
+        }
+      
+        li {
+          font-size: 16px;
+          margin-left: 0;
+        }
+      
+        .login {
+          margin-left: 0;
+        }
+      
+        .sign-in {
+          margin-top: 10px;
+          font-size: 15px;
+          padding: 5px 15px;
+        }
+        .nav-links {
+          display: flex !important;
+          position: static;
+          flex-direction: row;
+          width: 100%;
+          box-shadow: none;
+          padding: 0;
+          background: none;
+        }
+      }
+      
+      
+      
